@@ -9,7 +9,7 @@ class MainKtTest {
         val cardType = "Mastercard"
         val monthlyAmount = 0.0
         val kop = 20000.0
-        val expectedResult = "Перевод на сумму 200.0 руб., комиссия составит 2120 коп."
+        val expectedResult = "1 Перевод на сумму 200.0 руб., комиссия составит 2120 коп."
 
         val actualResult = transfer(cardType, monthlyAmount, kop)
         assertEquals(expectedResult, actualResult)
